@@ -3,24 +3,24 @@ copper:
   - nesting tags (indentation)
   - tags with class(es) and/or ids defined (.#)
   - embed ruby in tag (with output/no output: '=' vs '-')
-  - add tag attributes
-  - doctype (!!!)
-  - comment line (/ and -#), difference between them
-  - ruby blocks (each loop)
   - ruby interpolation (#{})
+  - tag attributes
+  - doctype (!!!)
+  - ruby blocks (each loop)
+  - comment line (/ and -#), difference between them
 silver:
-  - escape line (\)
   - boolean attributes (arg: true)
   - HTML5 data attributes (data: {a: 2})
-  - empty tags (br/)
-  - comment block (/ and -#)
   - multiline HTML args, ruby code
   - filters (:javascript)
   - helpers (surround, precede, succeed)
+  - empty tags (br/)
+  - comment block (/ and -#)
+  - escape line (\)
 gold:
   - mulitple class/id parts (with ruby array syntax)
-  - whitespace removals (<, >)
   - Active Model object reference ([])
   - IE conditional comments (/[])
   - (un)escape HTML (!=, &=)
+  - whitespace removals (<, >)
   - multiline text (|)
